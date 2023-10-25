@@ -44,7 +44,30 @@ And have a look locally: ```jekyll serve```
 If you want to deploy to airov.at
 
 - Contact simon.haller-seeber@uibk.ac.at and provide read access to your workshop git repository
-- Enable the curl command in .gitlab-ci.yml  
+- If you use gitlab just enable the curl command in .gitlab-ci.yml  (if you use github then see )
+
+
+
+### github action
+if you do not use gitlab but github you could use following github action
+
+```
+name: "Update Airov Workshop"
+ 
+on:
+  push:
+    tags:
+      - '**'
+ 
+jobs:
+  run-updater:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Request Update
+      run: |
+        curl -X GET "https://airov.at/update-ws/"
+```
+
 
 
 
