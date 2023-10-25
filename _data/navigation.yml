@@ -1,0 +1,42 @@
+- title: Home
+  url: "/"
+  side: left
+
+# - title: About
+#   url: "/about"
+#   side: left
+
+- title: "Program"
+  url: "/program/"
+  side: left
+
+- title: "Workshops"
+  url: "/workshop/"
+  side: left
+  dropdown:
+  - title: "Workshop"
+    url: "/workshop/workshop"
+  # - title: "Workshop 2"
+  #   url: "/workshop/ws2"
+  # - title: "Workshop 3"
+  #   url: "/workshop/ws3"
+  # - title: "Workshop 4"
+  #   url: "/workshop/ws4"
+  # - title: "Workshop 5"
+  #   url: "/workshop/ws5"
+
+- title: "Venue"
+  url: "/venue"
+  dropdown:
+  - title: "Accommodation"
+    url: "/accommodation"
+  side: left
+
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+# - title: "Contact"
+#   url: "/contact/"
+#   side: right
