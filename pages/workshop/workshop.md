@@ -5,7 +5,7 @@ title: "AIRoV Workshop 1"
 teaser: ""
 header:
    image_fullwidth: "header_unsplash_1.jpg"
-permalink: "/workshop/ws1"
+permalink: "/workshop/workshop"
 ---
 
 
