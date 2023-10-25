@@ -10,7 +10,8 @@ Please put your content into the folder
 **pages/workshop/**
 
 - Please do not rename the file `pages/workshop/workshop.md` - just edit the content. The file will be used as index page for your workshop.
-- Note that any changes you make to file outside **pages/workshop** will be ignored.
+- If you need more pages just copy the workshop.md file and edit it accordingly. **Note:** edit the last part of the permalink to the filename
+- Note that any changes you make to files outside **pages/workshop** will be ignored.
 
 
 ## Testing the workshop webpage
