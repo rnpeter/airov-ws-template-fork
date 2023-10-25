@@ -39,4 +39,14 @@ Change into this direcotry and build the page: ```jekyll b```
 And have a look locally: ```jekyll serve```
 
 
+## Auto-Deploy to https://airov.at
+
+If you want to deploy to airov.at
+
+- Contact simon.haller-seeber@uibk.ac.at and provide read access to your workshop git repository
+- enable the curl command in .gitlab-ci.yml  
+
+
+
+
 
