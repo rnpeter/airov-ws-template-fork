@@ -44,7 +44,7 @@ And have a look locally: ```jekyll serve```
 If you want to deploy to airov.at
 
 - Contact simon.haller-seeber@uibk.ac.at and provide read access to your workshop git repository
-- enable the curl command in .gitlab-ci.yml  
+- Enable the curl command in .gitlab-ci.yml  
 
 
 
