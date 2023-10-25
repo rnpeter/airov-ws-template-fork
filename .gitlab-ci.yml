@@ -1,0 +1,9 @@
+image: alpine/bundle:latest
+web-rsync:
+  stage: deploy
+  before_script:
+   - apt-get update -qy
+   - apt-get install -y curl 
+  script:
+   - curl https://airov.at/update-ws
+
