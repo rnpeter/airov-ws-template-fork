@@ -4,6 +4,6 @@ web-rsync:
   before_script:
    - apt-get update -qy
    - apt-get install -y curl 
-#  script:
-#   - curl https://airov.at/update-ws/
+  #script:
+  # - curl https://airov.at/update-ws/
 
