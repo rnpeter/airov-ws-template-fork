@@ -4,6 +4,7 @@ web-rsync:
   before_script:
    - apt-get update -qy
    - apt-get install -y curl 
-  #script:
+  script:
+   - echo "Enable auto-update by removing the # in line 9"
   # - curl https://airov.at/update-ws/
 
