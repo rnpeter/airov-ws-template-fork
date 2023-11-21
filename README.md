@@ -38,6 +38,7 @@ Change into this direcotry and build the page: ```jekyll b```
 
 And have a look locally: ```jekyll serve```
 
+For further information on jekyll see https://jekyllrb.com/
 
 ## Auto-Deploy to https://airov.at
 
@@ -67,7 +68,8 @@ jobs:
         curl -X GET "https://airov.at/update-ws/"
 ```
 
-
+## Help
+If you need any additional help or have any questions please contact me (simon.haller-seeber@uibk.ac.at)
 
 
 
